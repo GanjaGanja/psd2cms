@@ -33,6 +33,10 @@ a {
 		text-align: center;
 	}
 }
+.g-sidebar-header {
+	font: 24px Georgia;
+	color: #0b636b;
+}
 .l-top {
 	background: url(../images/top_back.png) repeat-x;
 	.h-top {
@@ -161,6 +165,115 @@ a {
 	left: 0px;
 }
 ///////// end_slogan /////////
+
+.l-content {
+	padding: 41px 35px 32px 35px;
+	min-width: 930px;
+	max-width: 1130px;
+}
+.h-sidebar {
+	float: right;
+	background: url(../images/sidebar_back.png) repeat-y top center;
+	&-top {
+		background: url(../images/sidebar_top.png) no-repeat top center;
+	}
+	&-bottom {
+		background: url(../images/sidebar_bottom.png) no-repeat bottom center;
+		width: 262px;
+		min-height: 350px;
+		padding-left: 36px;
+	}
+}
+
+///////// photo-stock /////////////
+.b-photo-header {
+	padding-bottom: 15px;
+}
+.b-photo-list {
+	list-style: none;
+	padding-bottom: 10px;
+	&-item {
+		padding-bottom: 16px;
+		&-href {
+			display: block;
+			background: url(../images/zoom.png) no-repeat 200px 66px;
+			text-align: right;
+			font: 11px Arial;
+			font-weight: bold;
+			text-decoration: none;
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+	&-image {
+		display: block;
+		border: 3px solid #d3cfa3;
+		margin-bottom: 7px;
+	}
+}
+///////// end-photo-stock /////////
+
+///////// quick-contact ///////////
+.b-qcontact {
+	padding-bottom: 42px;
+	&-header {
+		padding-bottom: 9px;
+	}
+	&-field {
+		font-weight: bold;
+		text-align: right;
+		line-height: 32px;
+		&-name {
+			float: left;
+		}
+		&-input {
+			width: 216px;
+			height: 18px;
+			border: 1px solid #e8e6c8;
+			background-color: #f8f5d2;
+			font-size: 10px;
+			color: #000;
+			text-indent: 5px;
+		}
+	}
+	&-button {
+		width: 88px;
+	}
+	&-buttons {
+		padding-top: 10px;
+		padding-left: 37px;
+	}
+	&-fiebut {
+		padding-left: 8px;
+		background-position: right -22px;
+	}
+}
+///////// end-quick-contact ///////
+
+///////// projects-link ///////////
+.b-projects-header {
+	padding-bottom: 8px;
+}
+.b-projects-list-item {
+	list-style: none;
+	padding: 4px 0;
+	background: url(../images/list-item.gif) repeat-x top left;
+	&:first-child {
+		background: none;
+	}
+}
+.b-projects-list-link {
+	text-decoration: none;
+	padding-left: 10px;
+	background: url(../images/arrow.png) no-repeat 0px 5px;
+}
+.b-projects-list-item.active .b-projects-list-link,
+.b-projects-list-item .b-projects-list-link:hover {
+	color: @dark-brown;
+	font-weight: bold;
+}
+///////// end-projects-link ///////
 
 ///////// footer /////////////
 .l-footer {

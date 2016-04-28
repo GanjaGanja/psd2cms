@@ -29,6 +29,10 @@ a:hover {
   color: #943415;
   text-align: center;
 }
+.g-sidebar-header {
+  font: 24px Georgia;
+  color: #0b636b;
+}
 .l-top {
   background: url(../images/top_back.png) repeat-x;
 }
@@ -144,6 +148,105 @@ a:hover {
   position: absolute;
   bottom: 0px;
   left: 0px;
+}
+.l-content {
+  padding: 41px 35px 32px 35px;
+  min-width: 930px;
+  max-width: 1130px;
+}
+.h-sidebar {
+  float: right;
+  background: url(../images/sidebar_back.png) repeat-y top center;
+}
+.h-sidebar-top {
+  background: url(../images/sidebar_top.png) no-repeat top center;
+}
+.h-sidebar-bottom {
+  background: url(../images/sidebar_bottom.png) no-repeat bottom center;
+  width: 262px;
+  min-height: 350px;
+  padding-left: 36px;
+}
+.b-photo-header {
+  padding-bottom: 15px;
+}
+.b-photo-list {
+  list-style: none;
+  padding-bottom: 10px;
+}
+.b-photo-list-item {
+  padding-bottom: 16px;
+}
+.b-photo-list-item-href {
+  display: block;
+  background: url(../images/zoom.png) no-repeat 200px 66px;
+  text-align: right;
+  font: 11px Arial;
+  font-weight: bold;
+  text-decoration: none;
+}
+.b-photo-list-item-href:hover {
+  text-decoration: underline;
+}
+.b-photo-list-image {
+  display: block;
+  border: 3px solid #d3cfa3;
+  margin-bottom: 7px;
+}
+.b-qcontact {
+  padding-bottom: 42px;
+}
+.b-qcontact-header {
+  padding-bottom: 9px;
+}
+.b-qcontact-field {
+  font-weight: bold;
+  text-align: right;
+  line-height: 32px;
+}
+.b-qcontact-field-name {
+  float: left;
+}
+.b-qcontact-field-input {
+  width: 216px;
+  height: 18px;
+  border: 1px solid #e8e6c8;
+  background-color: #f8f5d2;
+  font-size: 10px;
+  color: #000;
+  text-indent: 5px;
+}
+.b-qcontact-button {
+  width: 88px;
+}
+.b-qcontact-buttons {
+  padding-top: 10px;
+  padding-left: 37px;
+}
+.b-qcontact-fiebut {
+  padding-left: 8px;
+  background-position: right -22px;
+}
+.b-projects-header {
+  padding-bottom: 8px;
+}
+.b-projects-list-item {
+  list-style: none;
+  padding: 4px 0;
+  background: url(../images/list-item.gif) repeat-x top left;
+}
+.b-projects-list-item:first-child {
+  background: none;
+}
+.b-projects-list-link {
+  text-decoration: none;
+  padding-left: 10px;
+  background: url(../images/arrow.png) no-repeat 0px 5px;
+}
+.b-projects-list-item.active .b-projects-list-link,
+.b-projects-list-item .b-projects-list-link:hover {
+  color: #943415;
+  font-weight: bold;
 }
 .l-footer {
   clear: both;
