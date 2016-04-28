@@ -33,6 +33,9 @@ a:hover {
   font: 24px Georgia;
   color: #0b636b;
 }
+.g-nobg {
+  background: none !important;
+}
 .l-top {
   background: url(../images/top_back.png) repeat-x;
 }
@@ -247,6 +250,125 @@ a:hover {
 .b-projects-list-item .b-projects-list-link:hover {
   color: #943415;
   font-weight: bold;
+}
+.h-content {
+  margin-right: 335px;
+}
+.b-article {
+  padding-bottom: 35px;
+}
+.b-article-h1 {
+  font: 30px Georgia;
+  color: #0b636b;
+  padding-bottom: 8px;
+}
+.b-article-h2 {
+  font: 18px Georgia;
+  color: #943415;
+}
+.b-article-text {
+  line-height: 16px;
+}
+.b-article-date-more {
+  background-color: #f9f6d4;
+  height: 29px;
+  margin-top: 38px;
+}
+.b-article-date {
+  float: left;
+  font-size: 11px;
+  font-weight: bold;
+  background: url(../images/icon_cal.png) no-repeat 10px 6px;
+  padding: 9px 0 3px 34px;
+}
+.b-article-more {
+  float: left;
+  background: url(../images/date_separator.gif) no-repeat 10px 8px;
+  padding: 8px 0 3px 21px;
+}
+.b-article-more-link {
+  font-size: 11px;
+  font-weight: bold;
+  text-decoration: none;
+  background: url(../images/icon_pen.png) no-repeat 0px 0px;
+  padding: 2px 0 5px 27px;
+}
+.b-article-more-link:hover {
+  text-decoration: underline;
+}
+.b-services {
+  padding-bottom: 50px;
+}
+.b-services-header {
+  font: 24px Georgia;
+  color: #2c787b;
+  margin-bottom: 30px;
+}
+.b-frame {
+  width: 194px;
+  height: 211px;
+  background: url(../images/frame.png) no-repeat;
+  float: left;
+  margin: -20px 20px 0 0;
+  display: table-cell;
+}
+.b-frame-link {
+  font-size: 10px;
+  display: block;
+  padding: 44px 30px 0 33px;
+}
+.b-frame-link-img {
+  display: block;
+  padding-bottom: 8px;
+}
+.b-services-text {
+  display: table-cell;
+}
+.b-dlist {
+  padding: 18px 0;
+}
+.b-dlist-item {
+  font: 18px Georgia;
+  color: #5c4527;
+}
+.b-dlist-desc {
+  background: url(../images/list-item.gif) repeat-x left 1px;
+  padding-top: 6px;
+  padding-bottom: 4px;
+}
+.b-dlist-desc-link {
+  font-weight: bold;
+  font-size: 11px;
+  background: url(../images/zoom.png) no-repeat 0 2px;
+  padding: 0 0 0 18px;
+  text-decoration: none;
+}
+.b-dlist-desc-link:hover {
+  text-decoration: underline;
+}
+.b-blockquote {
+  clear: left;
+}
+.b-blockquote-header {
+  font: 24px Georgia;
+  color: #2c787b;
+}
+.b-blockquote-author {
+  background: url(../images/icon_pen.png) no-repeat 0 15px;
+  padding: 15px 0 18px 25px;
+}
+.b-blockquote-author-link {
+  font-weight: bold;
+  font-size: 11px;
+  text-decoration: none;
+}
+.b-blockquote-author-link:hover {
+  text-decoration: underline;
+}
+blockquote {
+  text-indent: 21px;
+  background: url(../images/quotes.png) no-repeat 0 15px;
+  padding-top: 15px;
 }
 .l-footer {
   clear: both;

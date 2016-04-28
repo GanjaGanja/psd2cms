@@ -1,7 +1,10 @@
 // @import "node_modules/normalize.less/normalize.less";
 @light-brown: #bb9d59;
-@dark-brown: #943415;
+@dark-red: #943415;
+@brown: #f9f6d4;
 @green: #497f35;
+@blue: #0b636b;
+@light-blue: #2c787b;
 
 * {
 	padding: 0;
@@ -15,7 +18,7 @@ html, body {
 	color: @light-brown;
 }
 a {
-	color: @dark-brown;
+	color: @dark-red;
 	&:hover {
 		text-decoration: none;
 	}
@@ -29,13 +32,16 @@ a {
 		height: 20px;
 		padding: 0 0 3px 5px;
 		font-size: 11px;
-		color: @dark-brown;
+		color: @dark-red;
 		text-align: center;
 	}
 }
 .g-sidebar-header {
 	font: 24px Georgia;
-	color: #0b636b;
+	color: @blue;
+}
+.g-nobg {
+	background: none !important;
 }
 .l-top {
 	background: url(../images/top_back.png) repeat-x;
@@ -80,7 +86,7 @@ a {
 	right: 20px;
 	.b-menu-item.active .b-menu-item-link,
 	.b-menu-item:hover .b-menu-item-link {
-		color: @dark-brown;
+		color: @dark-red;
 		display: block;
 		height: 16px;
 		background: url(../images/top_active_menu.png) no-repeat right 0px;
@@ -127,7 +133,7 @@ a {
 		margin-right: 25px;
 		color: @light-brown;
 		font-size: 10px;
-		background-color: #f9f6d4;
+		background-color: @brown;
 	}
 	&-regsub {
 		color: #ab8e4e;
@@ -142,7 +148,7 @@ a {
 		}
 	}
 	&-reg {
-		color: @dark-brown;
+		color: @dark-red;
 		text-decoration: none;
 		&:hover {
 			text-decoration: underline;
@@ -270,10 +276,139 @@ a {
 }
 .b-projects-list-item.active .b-projects-list-link,
 .b-projects-list-item .b-projects-list-link:hover {
-	color: @dark-brown;
+	color: @dark-red;
 	font-weight: bold;
 }
 ///////// end-projects-link ///////
+
+.h-content {
+	margin-right: 335px;
+}
+
+///////// article ///////////
+.b-article {
+	padding-bottom: 35px;
+	&-h1 {
+		font: 30px Georgia;
+		color: @blue;
+		padding-bottom: 8px;
+	}
+	&-h2 {
+		font: 18px Georgia;
+		color: @dark-red;
+	}
+	&-text {
+		line-height: 16px;
+	}
+	&-date-more {
+		background-color: @brown;
+		height: 29px;
+		margin-top: 38px;
+	}
+	&-date {
+		float: left;
+		font-size: 11px;
+		font-weight: bold;
+		background: url(../images/icon_cal.png) no-repeat 10px 6px;
+		padding: 9px 0 3px 34px;
+	}
+	&-more {
+		float: left;
+		background: url(../images/date_separator.gif) no-repeat 10px 8px;
+		padding: 8px 0 3px 21px;
+		&-link {
+			font-size: 11px;
+			font-weight: bold;
+			text-decoration: none;
+			background: url(../images/icon_pen.png) no-repeat 0px 0px;
+			padding: 2px 0 5px 27px;
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+}
+///////// end-article ///////
+
+///////// services //////////
+.b-services {
+	padding-bottom: 50px;
+	&-header {
+		font: 24px Georgia;
+		color: @light-blue;
+		margin-bottom: 30px;
+	}
+}
+.b-frame {
+	width: 194px;
+	height: 211px;
+	background: url(../images/frame.png) no-repeat;
+	float: left;
+	margin: -20px 20px 0 0;
+	display: table-cell;
+	&-link {
+		font-size: 10px;
+		display: block;
+		padding: 44px 30px 0 33px;
+		&-img {
+			display: block;
+			padding-bottom: 8px;
+		}
+	}
+}
+.b-services-text {
+	display: table-cell;
+}
+.b-dlist {
+	padding: 18px 0;
+	&-item {
+		font: 18px Georgia;
+		color: #5c4527;
+	}
+	&-desc {
+		background: url(../images/list-item.gif) repeat-x left 1px;
+		padding-top: 6px;
+		padding-bottom: 4px;
+		&-link {
+			font-weight: bold;
+			font-size: 11px;
+			background: url(../images/zoom.png) no-repeat 0 2px;
+			padding: 0 0 0 18px;
+			text-decoration: none;
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+}
+///////// end-services //////
+
+///////// blockquote ////////
+.b-blockquote {
+	clear: left;
+	&-header {
+		font: 24px Georgia;
+		color: @light-blue;
+	}
+	&-author {
+		background: url(../images/icon_pen.png) no-repeat 0 15px;
+		padding: 15px 0 18px 25px;
+		&-link {
+			font-weight: bold;
+			font-size: 11px;
+			text-decoration: none;
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+}
+blockquote {
+	text-indent: 21px;
+	background: url(../images/quotes.png) no-repeat 0 15px;
+	padding-top: 15px;
+}
+///////// end-blockquote ////
 
 ///////// footer /////////////
 .l-footer {
@@ -296,7 +431,7 @@ a {
 		padding-right: 4px;
 		&-link,
 		&.active .b-menu-item-link {
-			color: @dark-brown;
+			color: @dark-red;
 			text-decoration: none;
 		}
 		&-link:hover {
