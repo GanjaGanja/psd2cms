@@ -24,7 +24,7 @@ a {
 	}
 }
 .g-button {
-	background: url(../images/button.png) no-repeat right -20px;
+	background: url(../images/button.png) no-repeat right -22px;
 	padding-right: 5px;
 	float: left;
 	&-in {
@@ -34,6 +34,9 @@ a {
 		font-size: 11px;
 		color: @dark-red;
 		text-align: center;
+		&:hover {
+			cursor: pointer;
+		}
 	}
 }
 .g-sidebar-header {
@@ -45,10 +48,10 @@ a {
 }
 .l-top {
 	background: url(../images/top_back.png) repeat-x;
+	min-width: 1000px;
 	.h-top {
 		height: 450px;
 		background: url(../images/top_bird.jpg) no-repeat top left;
-		min-width: 1000px;
 		max-width: 1200px;
 		position: relative;
 	}
@@ -143,6 +146,7 @@ a {
 			float: none;
 			padding-bottom: 5px;
 			padding-left: 16px;
+			background-position: right -20px;
 			position: relative;
 			top: -2px;
 		}
@@ -166,6 +170,7 @@ a {
 	color: @green;
 	padding: 0 90px;
 	text-align: center;
+	line-height: 30px;
 	position: absolute;
 	bottom: 0px;
 	left: 0px;
@@ -173,7 +178,7 @@ a {
 ///////// end_slogan /////////
 
 .l-content {
-	padding: 41px 35px 32px 35px;
+	padding: 41px 30px 32px 35px;
 	min-width: 930px;
 	max-width: 1130px;
 }
@@ -188,6 +193,7 @@ a {
 		width: 262px;
 		min-height: 350px;
 		padding-left: 36px;
+		padding-top: 5px;
 	}
 }
 
@@ -252,12 +258,14 @@ a {
 	}
 	&-fiebut {
 		padding-left: 8px;
-		background-position: right -22px;
 	}
 }
 ///////// end-quick-contact ///////
 
 ///////// projects-link ///////////
+.b-projects {
+	padding-top: 6px;
+}
 .b-projects-header {
 	padding-bottom: 8px;
 }
@@ -296,6 +304,7 @@ a {
 	&-h2 {
 		font: 18px Georgia;
 		color: @dark-red;
+		padding-bottom: 4px;
 	}
 	&-text {
 		line-height: 16px;
@@ -344,7 +353,7 @@ a {
 	height: 211px;
 	background: url(../images/frame.png) no-repeat;
 	float: left;
-	margin: -20px 20px 0 0;
+	margin: -20px 20px 0 -5px;
 	display: table-cell;
 	&-link {
 		font-size: 10px;
@@ -459,8 +468,7 @@ blockquote {
 	&-link {
 		display: block;
 		text-decoration: none;
-		padding-top: 5px;
-		background-position: left 2px;
+		padding-top: 3px;
 		width: 56px;
 	}
 }
